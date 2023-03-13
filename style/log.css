@@ -1,0 +1,131 @@
+body{
+    cursor: default;
+    font-weight: bold;
+    background-image: url("../img/background.jpg") ;
+    overflow:hidden;
+    width:100%;
+    height:100vh;
+    font-family: Open Sans, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a, a:visited{
+    color: #1D9BF0;
+}
+
+.container{
+    border-radius:40px;
+    background-color:#FFF;
+    height:800px;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.aligner{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 25px;
+}
+
+#logForm{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+
+#firstname{
+    padding:6px 10px;
+    width:250px;
+    margin-bottom: 10px;
+    border: 1px solid #3D3D3D;
+    font-size:16px;
+    border-radius: 20px;
+}
+
+#lastname{
+    padding:6px 10px;
+    width:250px;
+    margin-bottom: 10px;
+    border: 1px solid #3D3D3D;
+    font-size:16px;
+    border-radius: 20px;
+}
+
+#email{
+    padding:6px 10px;
+    width:250px;
+    margin-bottom: 10px;
+    border: 1px solid #3D3D3D;
+    font-size:16px;
+    border-radius: 20px;
+}
+
+#password{
+    padding:6px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3D3D3D;
+    font-size:16px;
+    border-radius: 20px;
+}
+
+#submitButton{
+    width:150px;
+    font-size: 16px;
+    padding:8px 8px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    background-color: #F0810F;
+    color:#2F3131;
+    font-family:Open Sans, sans-serif;
+}
+
+#submitButton:hover{
+    cursor: pointer;
+    background-color:#2F3131;
+    color:#F0810F;
+    transition-duration: 0.4s;
+}
+
+.noAccount{
+    cursor: default;
+    line-height: 20px;
+}
+
+.noAccount a{
+    text-decoration:none;
+}
+
+.noAccount a:hover{
+    text-decoration:underline;
+}
+
+.contact{
+    position:absolute;
+    bottom:105px;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact a{
+    text-decoration: none;
+    padding-left:10px;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}

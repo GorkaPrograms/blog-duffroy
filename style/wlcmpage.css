@@ -1,0 +1,52 @@
+body{
+    background-image: url("/img/background.jpg") ;
+    overflow:hidden;
+    width:100%;
+    height:100vh;
+    font-family: Open Sans, sans-serif;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    height:100vh;
+}
+
+#logo{
+    position:absolute;
+    top:100px;
+}
+
+.buttons{
+    margin-top:150px;
+    text-decoration: none;
+}
+
+.buttons a{
+    text-decoration:none;
+}
+
+#signupButton, #loginButton{
+    font-family: Open Sans, sans-serif;
+    font-weight:bold;
+    font-size:28px;
+    padding: 16px 32px;
+    border-radius:40px;
+    background:#F0810F;
+    color:#2F3131;
+    border:1px transparent;
+}
+
+#signupButton:hover, #loginButton:hover{
+    cursor:pointer;
+    background-color:#2F3131;
+    color:#F0810F;
+    transition-duration:0.3s;
+}
+
+#signupButton{
+    margin-right:500px;
+}
